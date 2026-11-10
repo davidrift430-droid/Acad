@@ -1,0 +1,11 @@
+{
+  "name": "fofit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Fofit — app de academia fofo com treino personalizado (PWA)",
+  "type": "module",
+  "scripts": {
+    "start": "npx --yes serve -l 5173 .",
+    "test": "node tests/generator.test.js"
+  }
+}
