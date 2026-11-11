@@ -33,10 +33,10 @@ jobs:
       - name: Rename APK
         run: |
           mkdir -p out
-          cp android/app/build/outputs/apk/debug/app-debug.apk "out/Black IronTraining-2.0.${{ github.run_number }}.apk"
+          cp android/app/build/outputs/apk/debug/app-debug.apk "out/BlackIron-2.0.${{ github.run_number }}.apk"
       - uses: actions/upload-artifact@v4
         with:
-          name: Black IronTraining-apk
+          name: BlackIron-apk
           path: out/*.apk
       - name: Publish release
         uses: softprops/action-gh-release@v2
