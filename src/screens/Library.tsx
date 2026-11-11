@@ -8,6 +8,7 @@ import type { Exercise, MuscleId } from '../core/types';
 import { useLang, useT } from '../i18n';
 import { BodyMap, exerciseColors } from '../ui/BodyMap';
 import { LineChart } from '../ui/charts';
+import { MotionPlayer, type MotionLabels } from '../ui/Motion';
 import { Icon, Sheet, fmt, fmtDate, go, toDisplay, toast } from '../ui/kit';
 
 // ───────── Execution player: start ↔ end frames with speed control ─────────
@@ -17,10 +18,14 @@ export function ExercisePlayer({ ex }: { ex: Exercise }) {
   const [frame, setFrame] = useState<0 | 1>(0);
   const [playing, setPlaying] = useState(true);
   const [speed, setSpeed] = useState(1);
-  const [tab, setTab] = useState<'demo' | 'mine'>('demo');
+  const [tab, setTab] = useState<'motion' | 'demo' | 'mine'>('motion');
   const videoKey = useStore((s) => s.videos[ex.id]);
   const [videoUrl, setVideoUrl] = useState<string | null>(null);
   const fileRef = useRef<HTMLInputElement>(null);
+  const motionLabels: MotionLabels = {
+    ecc: t('motion.ecc'), conc: t('motion.conc'), pause: t('motion.pause'), squeeze: t('motion.squeeze'),
+    hold: t('motion.hold'), start: t('motion.start'), peak: t('motion.peak'), rep: t('motion.rep'), tempo: t('motion.tempo'),
+  };
 
   useEffect(() => {
     if (!playing || tab !== 'demo') return;
@@ -49,10 +54,22 @@ export function ExercisePlayer({ ex }: { ex: Exercise }) {
   return (
     <div className="col">
       <div className="seg">
+        <button className={tab === 'motion' ? 'on' : ''} onClick={() => setTab('motion')}>{t('ex.motion')}</button>
         <button className={tab === 'demo' ? 'on' : ''} onClick={() => setTab('demo')}>{t('ex.demo')}</button>
         <button className={tab === 'mine' ? 'on' : ''} onClick={() => setTab('mine')}>{t('ex.myVideo')}</button>
       </div>
-      {tab === 'demo' ? (
+      {tab === 'motion' ? (
+        <div className="col gap-4">
+          <MotionPlayer ex={ex} labels={motionLabels} speed={speed} playing={playing} />
+          <div className="row">
+            <button className="btn secondary sm" onClick={() => setPlaying((p) => !p)} aria-label={playing ? 'pause' : 'play'}><Icon name={playing ? 'pause' : 'play'} size={14} /></button>
+            {[0.5, 1, 2].map((v) => <button key={v} className={`btn sm ${speed === v ? 'primary' : 'secondary'}`} onClick={() => setSpeed(v)}>{v}×</button>)}
+            <span className="grow" />
+            <a className="btn secondary sm" href={`https://www.youtube.com/results?search_query=${encodeURIComponent(ex.n + ' exercise form')}`} target="_blank" rel="noreferrer"><Icon name="video" size={14} /> YouTube</a>
+          </div>
+          <span className="tiny faint">{t('motion.note')}</span>
+        </div>
+      ) : tab === 'demo' ? (
         <div className="media" onClick={() => { if (!playing) setFrame((f) => (f ? 0 : 1)); }}>
           <img src={exImg(ex.id, 0)} alt={t('ex.start')} />
           <img className={`f1 ${frame ? 'show' : ''}`} src={exImg(ex.id, 1)} alt={t('ex.end')} />

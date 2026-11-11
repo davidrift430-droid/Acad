@@ -302,3 +302,17 @@ ol.steps li::before { content: counter(s, decimal-leading-zero); font-family: va
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
 }
+
+/* Motion player */
+.motion { position: relative; border-radius: var(--r-lg); overflow: hidden; background: radial-gradient(80% 70% at 50% 45%, rgba(255, 45, 45, 0.08), transparent 70%), #000; border: 1px solid var(--line); --mo-equip: #2b2e35; }
+.motion svg { width: 100%; height: auto; display: block; aspect-ratio: 240 / 230; max-height: 420px; }
+.mo-hud { position: absolute; top: 10px; left: 10px; right: 10px; display: flex; justify-content: space-between; gap: 8px; align-items: flex-start; }
+.mo-phase { font-size: 11px; font-weight: 900; letter-spacing: 0.1em; padding: 6px 10px; border-radius: 8px; background: rgba(255, 255, 255, 0.08); color: #fff; }
+.mo-phase b { margin-left: 6px; color: var(--accent); }
+.mo-ecc { background: rgba(90, 200, 250, 0.18); }
+.mo-conc { background: rgba(255, 45, 45, 0.25); }
+.mo-pause, .mo-squeeze, .mo-hold { background: rgba(204, 255, 0, 0.18); }
+.mo-peak { font-size: 11px; font-weight: 900; letter-spacing: 0.1em; padding: 6px 10px; border-radius: 8px; background: var(--danger); color: #fff; box-shadow: 0 0 18px rgba(255, 45, 45, 0.6); }
+.mo-foot { position: absolute; left: 12px; right: 12px; bottom: 12px; display: flex; justify-content: space-between; font-size: 11px; font-weight: 800; color: #8e8e93; letter-spacing: 0.08em; }
+.mo-progress { position: absolute; left: 0; right: 0; bottom: 0; height: 3px; background: rgba(255, 255, 255, 0.08); }
+.mo-progress i { display: block; height: 100%; background: var(--accent); }
