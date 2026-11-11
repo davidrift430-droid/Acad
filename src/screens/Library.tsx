@@ -29,7 +29,7 @@ export function ExercisePlayer({ ex }: { ex: Exercise }) {
 
   useEffect(() => {
     if (!playing || tab !== 'demo') return;
-    const i = setInterval(() => setFrame((f) => (f ? 0 : 1)), 1200 / speed);
+    const i = setInterval(() => setFrame((f) => (f ? 0 : 1)), 1800 / speed);
     return () => clearInterval(i);
   }, [playing, speed, tab]);
 

@@ -321,9 +321,7 @@ function SideFigure({ p, q, colors, eq }: { p: SidePattern; q: SidePose; colors:
   );
 }
 
-function FrontFigure({ p, q, colors, eq }: { p: FrontPattern; q: FrontPose; colors: Colors; eq: string }) {
-  const iron = 'url(#mo-iron)';
-  const fill = (ms: MuscleId[]) => colors(ms) || iron;
+function frontJoints(p: FrontPattern, q: FrontPose) {
   const legLen = 92;
   const ua = (s: 1 | -1): V => [s * Math.sin(rad(q.a)) * L.ua, Math.cos(rad(q.a)) * L.ua];
   const fa = (s: 1 | -1): V => [s * Math.sin(rad(q.f)) * L.fa, Math.cos(rad(q.f)) * L.fa];
@@ -350,6 +348,14 @@ function FrontFigure({ p, q, colors, eq }: { p: FrontPattern; q: FrontPose; colo
   const ankR: V = seated ? [cx + 20, hipY + 40] : [hipR[0] + Math.sin(rad(legR)) * 88, hipY + Math.cos(rad(legR)) * 88];
   const neck: V = [cx, shY - 6];
   const head: V = [cx, shY - 22];
+  return { cx, shY, hipY, shL, shR, eL, eR, wL, wR, hipL, hipR, kneeL, kneeR, ankL, ankR, neck, head, seated };
+}
+
+function FrontFigure({ p, q, colors, eq }: { p: FrontPattern; q: FrontPose; colors: Colors; eq: string }) {
+  const iron = 'url(#mo-iron)';
+  const fill = (ms: MuscleId[]) => colors(ms) || iron;
+  const { cx, shY, hipY, shL, shR, eL, eR, wL, wR, hipL, hipR, kneeL, kneeR, ankL, ankR, neck, head, seated } = frontJoints(p, q);
+  void shY;
   return (
     <g>
       {p.bar != null && <path d={`M40,${p.bar} L200,${p.bar}`} stroke="var(--mo-equip)" strokeWidth={5} strokeLinecap="round" />}
@@ -378,6 +384,23 @@ function FrontFigure({ p, q, colors, eq }: { p: FrontPattern; q: FrontPose; colo
       ))}
     </g>
   );
+}
+
+
+/** The point whose path best explains the movement (bar, hand, foot, hip or head). */
+function trackPoint(p: Pattern, q: SidePose | FrontPose, key: string): V {
+  if (p.view === 'front') {
+    const j = frontJoints(p, q as FrontPose);
+    if (key === 'hip_abd' || key === 'hip_add') return j.ankR;
+    if (key === 'shrug') return j.shR;
+    return j.wR;
+  }
+  const j = sideJoints(p, q as SidePose);
+  if (p.equipAt === 'hip' || key === 'calf_standing' || key === 'calf_seated') return p.equipAt === 'hip' ? add(j.hip, mul(j.n, 14)) : j.hip;
+  if (p.equipAt === 'ankle' || key === 'leg_raise_hanging' || key === 'leg_raise_lying' || key === 'kickback') return j.a1;
+  if (key === 'crunch' || key === 'back_ext') return j.head;
+  if (key === 'pushup' || key === 'dip' || key === 'plank') return j.sh;
+  return j.w1;
 }
 
 // ───────── Player ─────────
@@ -435,6 +458,17 @@ export function MotionPlayer({ ex, labels, speed = 1, playing = true, at, patter
   const stretchEnd = p.concFirst ? 'a' : 'b';
   const atEnd = (end: 'a' | 'b') => step.from === end && step.to === end;
   const peak = mode === 'reps' && ((ex.peak === 'L' && atEnd(stretchEnd)) || (ex.peak === 'S' && atEnd(stretchEnd === 'a' ? 'b' : 'a')));
+  // Trail of the moving point between both end positions, and the current movement direction.
+  const trail: V[] = Array.from({ length: 25 }, (_, i) => trackPoint(p, mix(p.a as object, p.b as object, ease(i / 24)) as SidePose | FrontPose, key));
+  const here = trackPoint(p, q as SidePose | FrontPose, key);
+  const ahead = trackPoint(p, mix(from as object, to as object, ease(Math.min(1, local / step.d + 0.12))) as SidePose | FrontPose, key);
+  const moving = step.from !== step.to && len(sub(ahead, here)) > 0.6;
+  const dv = moving ? mul(sub(ahead, here), 1 / len(sub(ahead, here))) : ([0, 0] as V);
+  const arrowColor = step.ph === 'ecc' ? '#5ac8fa' : '#ff2d2d';
+  const tip = add(here, mul(dv, 22));
+  const base = add(here, mul(dv, 8));
+  const perp: V = [-dv[1], dv[0]];
+  const showTrail = mode !== 'hold' && len(sub(trail[0]!, trail[24]!)) > 4;
   const label = { top: labels.start, ecc: labels.ecc, pause: labels.pause, conc: labels.conc, squeeze: labels.squeeze, hold: labels.hold }[step.ph];
   const remaining = Math.max(0, step.d - local);
   const tempo = mode === 'reps' ? `${Math.round(ecc)}-${pause >= 1 ? 1 : 0}-${Math.round(conc)}-${p.concFirst ? 1 : 0}` : '';
@@ -459,11 +493,32 @@ export function MotionPlayer({ ex, labels, speed = 1, playing = true, at, patter
         </defs>
         <rect width="240" height="230" fill="url(#mo-grid)" />
         <path d={`M0,${GROUND} L240,${GROUND}`} stroke="var(--line-strong)" strokeWidth={1} />
+        {mode !== 'cycle' && ([p.a, p.b] as (SidePose | FrontPose)[]).map((g, i) => (
+          <g key={i} opacity={0.1} className="mo-ghost">
+            {p.view === 'side'
+              ? <SideFigure p={p} q={g as SidePose} colors={() => ''} eq="body only" />
+              : <FrontFigure p={p} q={g as FrontPose} colors={() => ''} eq="body only" />}
+          </g>
+        ))}
+        {showTrail && (
+          <g>
+            <path d={'M' + trail.map((v) => `${v[0].toFixed(1)},${v[1].toFixed(1)}`).join(' L')} fill="none" stroke="var(--accent)" strokeWidth={1.6} strokeDasharray="2 4" opacity={0.55} />
+            <circle cx={trail[0]![0]} cy={trail[0]![1]} r={2.5} fill="var(--accent)" opacity={0.7} />
+            <circle cx={trail[24]![0]} cy={trail[24]![1]} r={2.5} fill="var(--accent)" opacity={0.7} />
+          </g>
+        )}
         <g filter={active ? 'url(#mo-glow)' : undefined}>
           {p.view === 'side'
             ? <SideFigure p={p} q={q as SidePose} colors={colors} eq={ex.eq} />
             : <FrontFigure p={p} q={q as FrontPose} colors={colors} eq={ex.eq} />}
         </g>
+        {moving && showTrail && (
+          <g>
+            <path d={`M${base[0].toFixed(1)},${base[1].toFixed(1)} L${tip[0].toFixed(1)},${tip[1].toFixed(1)}`} stroke={arrowColor} strokeWidth={3} strokeLinecap="round" />
+            <path d={`M${(tip[0] + dv[0] * 6).toFixed(1)},${(tip[1] + dv[1] * 6).toFixed(1)} L${(tip[0] + perp[0] * 6).toFixed(1)},${(tip[1] + perp[1] * 6).toFixed(1)} L${(tip[0] - perp[0] * 6).toFixed(1)},${(tip[1] - perp[1] * 6).toFixed(1)} Z`} fill={arrowColor} />
+          </g>
+        )}
+        {!moving && showTrail && <circle cx={here[0]} cy={here[1]} r={7} fill="none" stroke="var(--accent)" strokeWidth={2} opacity={0.8}><animate attributeName="r" values="5;10;5" dur="1s" repeatCount="indefinite" /></circle>}
       </svg>
       <div className="mo-hud">
         <span className={`mo-phase mo-${step.ph}`}>{label} {mode !== 'cycle' && <b className="mono">{remaining.toFixed(1)}s</b>}</span>
