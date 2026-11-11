@@ -109,10 +109,15 @@ function Detail({ ex }: { ex: Exercise }) {
       </div>
       <div className="card">
         <span className="eyebrow">{t('ex.muscles')}</span>
+        <div className="muscle-title">{ex.pm.map((m) => t(`muscle.${m}`)).join(' · ')}</div>
         <BodyMap colors={exerciseColors(ex.pm, ex.sm)} labels={[t('body.front'), t('body.back')]} />
         <div className="row wrap gap-4">
           {ex.pm.map((m) => <span key={m} className="pill danger">● {t(`muscle.${m}`)}</span>)}
           {ex.sm.map((m) => <span key={m} className="pill warn">○ {t(`muscle.${m}`)}</span>)}
+        </div>
+        <div className="col gap-4">
+          <span className="eyebrow">{t('ex.functions')}</span>
+          {ex.pm.map((m) => <p key={m} className="small"><b>{t(`muscle.${m}`)}:</b> <span className="muted">{t(`fn.${m}`)}</span></p>)}
         </div>
       </div>
       {ex.star ? <div className="card alert-ok"><p className="small"><b className="accent">★ {t('meta.stretch')}.</b> {t('ex.stretchWhy')}</p></div> : null}

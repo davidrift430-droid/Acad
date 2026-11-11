@@ -11,7 +11,7 @@ test('all i18n keys exist', () => {
   const src = files.filter((f) => /\.tsx?$/.test(f)).map((f) => fs.readFileSync(path.join(SRC, f), 'utf8')).join('\n');
   const keys = new Set([...src.matchAll(/\bt\('([a-zA-Z0-9_.]+)'/g)].map((m) => m[1]!));
   ['tab.train','tab.library','tab.lab','tab.diet','tab.more','nav.history','more.profile','gen.progression','gen.joints'].forEach((k) => keys.add(k));
-  MUSCLES.forEach((m) => keys.add('muscle.' + m));
+  MUSCLES.forEach((m) => { keys.add('muscle.' + m); keys.add('fn.' + m); });
   new Set(EXERCISES.map((e) => e.eq)).forEach((e) => keys.add('eq.' + e));
   EQUIPMENT.forEach((e) => keys.add('eq.' + e));
   VOLUME_GROUPS.forEach((g) => keys.add('group.' + g));

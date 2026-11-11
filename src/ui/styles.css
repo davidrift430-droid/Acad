@@ -18,9 +18,13 @@
   --warn: #ff9500;
   --warn-soft: rgba(255, 149, 0, 0.14);
   --info: #5ac8fa;
-  --muscle-off: #2a2d35;
+  --muscle-off: #8b9099;
   --muscle-primary: #ff3b30;
-  --muscle-secondary: #ff8a65;
+  --muscle-secondary: #ff9a6b;
+  --bm-gap: #1b1d22;
+  --bm-deco: #6d727b;
+  --bm-bg: #08090b;
+  --bm-glow: rgba(255, 255, 255, 0.05);
   --shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
   --r-sm: 10px;
   --r: 14px;
@@ -46,7 +50,11 @@
   --accent-text: #4b7a00;
   --accent-ink: #0d0e11;
   --accent-soft: rgba(120, 170, 0, 0.14);
-  --muscle-off: #d9dce2;
+  --muscle-off: #a9aeb7;
+  --bm-gap: #5d626b;
+  --bm-deco: #8f949d;
+  --bm-bg: #1a1c21;
+  --bm-glow: rgba(255, 255, 255, 0.06);
   --shadow: 0 8px 24px rgba(13, 14, 17, 0.08);
   color-scheme: light;
 }
@@ -229,11 +237,14 @@ select.input { appearance: none; }
 .media .phase { position: absolute; top: 10px; left: 10px; font-family: var(--mono); font-size: 11px; font-weight: 800; letter-spacing: 0.1em; padding: 4px 8px; border-radius: 6px; background: rgba(0, 0, 0, 0.6); color: #fff; }
 
 /* Body map */
-.bodymap { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
-.bodymap svg { width: 100%; height: auto; max-height: 340px; }
+.bodymap { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; padding: 12px 4px 4px; border-radius: var(--r); background: radial-gradient(90% 70% at 50% 40%, var(--bm-glow), transparent 70%), var(--bm-bg); }
+.bodymap svg { width: 100%; height: auto; max-height: 380px; display: block; margin: 0 auto; }
 .bodymap .label { text-align: center; font-size: 10px; font-weight: 800; letter-spacing: 0.12em; color: var(--faint); text-transform: uppercase; }
-.bm-base { fill: var(--surface-2); stroke: var(--line-strong); stroke-width: 1; }
-.bm-m { fill: var(--muscle-off); stroke: var(--bg); stroke-width: 1.2; transition: fill 0.3s; }
+.bm-body { fill: var(--bm-gap); }
+.bm-m { fill: var(--muscle-off); stroke: var(--bm-gap); stroke-width: 0.6; transition: fill 0.3s; }
+.bm-deco { fill: var(--bm-deco); stroke: var(--bm-gap); stroke-width: 0.6; }
+.bm-fiber { stroke: rgba(0, 0, 0, 0.28); stroke-width: 0.5; stroke-linecap: round; }
+.muscle-title { font-size: 26px; font-weight: 900; letter-spacing: 0.06em; text-transform: uppercase; text-align: center; }
 
 /* Charts */
 .chart { width: 100%; height: auto; display: block; overflow: visible; }
