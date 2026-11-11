@@ -1,8 +1,8 @@
 {
-  "name": "dymo-training",
+  "name": "black-iron",
   "version": "2.0.0",
   "private": true,
-  "description": "Dymo Training — hypertrophy OS: one-tap workout logger, MEV/MAV/MRV volume engine, lean bulk lab, diet builder.",
+  "description": "Black Iron — hypertrophy OS: one-tap workout logger, MEV/MAV/MRV volume engine, lean bulk lab, diet builder.",
   "type": "module",
   "scripts": {
     "dev": "vite --host",

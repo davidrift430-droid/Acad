@@ -1,11 +1,11 @@
-# DYMO TRAINING — Optimized Hypertrophy OS
+# BLACK IRON — Optimized Hypertrophy OS
 
-![Dymo Training](assets/cover.png)
+![Black Iron](assets/cover.png)
 
 App de celular (APK Android + PWA) para fisiculturistas naturais avançados: registro em 1 toque, dupla progressão, volume efetivo contra MEV/MAV/MRV, laboratório de bulk limpo, montador de dieta e fotos de antes e depois. Funciona offline, em **Português, English e Español**, com tema escuro e claro.
 
 ## 📱 Instalar no celular
-- **Android (APK):** no celular, abra a aba **Releases** do repositório → baixe o `DymoTraining-2.0.x.apk` mais recente → abra e permita "instalar apps desconhecidos". Cada push gera um APK novo automaticamente (`.github/workflows/android.yml`).
+- **Android (APK):** no celular, abra a aba **Releases** do repositório → baixe o `BlackIron-2.0.x.apk` mais recente → abra e permita "instalar apps desconhecidos". Cada push gera um APK novo automaticamente (`.github/workflows/android.yml`).
 - **PWA:** em **Settings → Pages → Source: GitHub Actions**, ative o Pages. Cada push na `main` publica o site; no celular use "Adicionar à tela inicial".
 
 ## ⚙️ Módulos

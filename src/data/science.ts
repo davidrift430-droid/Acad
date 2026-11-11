@@ -7,7 +7,7 @@ export interface Study {
   takeaway: [string, string, string];
   cite: string;
   url: string;
-  app: [string, string, string]; // how Dymo applies it
+  app: [string, string, string]; // how Black Iron applies it
 }
 
 export const STUDIES: Study[] = [
@@ -31,7 +31,7 @@ export const STUDIES: Study[] = [
       'El volumen tuvo efecto positivo con rendimientos decrecientes; contar series indirectas como media serie predijo mejor. La frecuencia importó poco con volumen igualado.'],
     cite: 'Pelland JC, Remmert JF, Robinson ZP, et al. SportRxiv preprint (2024).',
     url: 'https://sportrxiv.org/index.php/server/preprint/view/537',
-    app: ['O app soma 1 série para o músculo principal e 0,5 para os secundários.', 'Dymo credits 1 set to prime movers and 0.5 to secondary muscles.', 'Dymo suma 1 serie al músculo principal y 0,5 a los secundarios.'],
+    app: ['O app soma 1 série para o músculo principal e 0,5 para os secundários.', 'Black Iron credits 1 set to prime movers and 0.5 to secondary muscles.', 'Black Iron suma 1 serie al músculo principal y 0,5 a los secundarios.'],
   },
   {
     id: 'freq2016', topic: 'frequency',
@@ -196,6 +196,6 @@ export const STUDIES: Study[] = [
       'Revisión clásica: la tensión mecánica es el motor principal de la hipertrofia.'],
     cite: 'Schoenfeld BJ. J Strength Cond Res. 2010;24(10):2857-2872.',
     url: 'https://doi.org/10.1519/JSC.0b013e3181e840f3',
-    app: ['Por isso o app foca em sobrecarga progressiva e tensão, não em "pump".', 'That is why Dymo focuses on progressive overload and tension, not the pump.', 'Por eso Dymo se centra en sobrecarga y tensión.'],
+    app: ['Por isso o app foca em sobrecarga progressiva e tensão, não em "pump".', 'That is why Black Iron focuses on progressive overload and tension, not the pump.', 'Por eso Black Iron se centra en sobrecarga y tensión.'],
   },
 ];

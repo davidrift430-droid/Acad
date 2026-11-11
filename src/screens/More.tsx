@@ -23,7 +23,7 @@ export function MoreScreen() {
     const blob = new Blob([JSON.stringify(data)], { type: 'application/json' });
     const a = document.createElement('a');
     a.href = URL.createObjectURL(blob);
-    a.download = `dymo-backup-${new Date().toISOString().slice(0, 10)}.json`;
+    a.download = `blackiron-backup-${new Date().toISOString().slice(0, 10)}.json`;
     a.click();
     setTimeout(() => URL.revokeObjectURL(a.href), 2000);
     toast(t('more.exported'));
@@ -78,7 +78,7 @@ export function MoreScreen() {
       </div>
 
       <p className="tiny faint center">
-        Dymo Training 2.0 · {profile?.name ?? ''}<br />
+        Black Iron 2.0 · {profile?.name ?? ''}<br />
         {t('more.credits', { n: EXERCISES.length })}<br />
         {t('more.disclaimer')}
       </p>

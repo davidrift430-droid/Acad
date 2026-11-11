@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">Dymo Training</string>
-    <string name="title_activity_main">Dymo Training</string>
-    <string name="package_name">com.dymotraining.app</string>
-    <string name="custom_url_scheme">com.dymotraining.app</string>
+    <string name="app_name">Black Iron</string>
+    <string name="title_activity_main">Black Iron</string>
+    <string name="package_name">com.blackiron.app</string>
+    <string name="custom_url_scheme">com.blackiron.app</string>
 </resources>

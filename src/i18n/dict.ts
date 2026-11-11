@@ -349,7 +349,7 @@ export const DICT: Record<string, [string, string, string]> = {
   // Science
   'sci.intro': ['Resumos curtos das evidências que guiam cada algoritmo do app, com link para o artigo original.', 'Short summaries of the evidence behind every algorithm in the app, with links to the original papers.', 'Resúmenes de la evidencia detrás de cada algoritmo, con enlace al artículo original.'],
   'sci.all': ['Todos', 'All', 'Todos'],
-  'sci.inApp': ['No Dymo', 'In Dymo', 'En Dymo'],
+  'sci.inApp': ['No Black Iron', 'In Black Iron', 'En Black Iron'],
   'sci.read': ['Ler o artigo (DOI)', 'Read the paper (DOI)', 'Leer el artículo (DOI)'],
   'sci.books': ['Livros', 'Books', 'Libros'],
   'sci.booksD': ['Livros como "Science and Development of Muscle Hypertrophy" (Schoenfeld), "The Muscle and Strength Pyramids" (Helms) e "Scientific Principles of Hypertrophy Training" (Israetel et al.) são protegidos por direitos autorais — não distribuímos PDFs. Os princípios deles estão implementados no app e os artigos acima são, em grande parte, de acesso aberto.', 'Books such as "Science and Development of Muscle Hypertrophy" (Schoenfeld), "The Muscle and Strength Pyramids" (Helms) and "Scientific Principles of Hypertrophy Training" (Israetel et al.) are copyrighted — we do not distribute PDFs. Their principles are implemented in the app and many of the papers above are open access.', 'Libros como los de Schoenfeld, Helms e Israetel tienen derechos de autor — no distribuimos PDFs. Sus principios están implementados en la app.'],

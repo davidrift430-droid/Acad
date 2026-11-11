@@ -38,7 +38,7 @@ function Today() {
   return (
     <div className="screen">
       <div className="row between">
-        <span className="wordmark">DYMO <b>TRAINING</b></span>
+        <span className="wordmark">BLACK <b>IRON</b></span>
         <button className="icon-btn" onClick={() => go('more')} aria-label={t('tab.more')}><Icon name="gear" size={20} /></button>
       </div>
 

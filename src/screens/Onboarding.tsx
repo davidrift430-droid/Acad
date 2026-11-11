@@ -57,7 +57,7 @@ export function OnboardingScreen() {
       {step === 0 && (
         <div className="hero" style={{ minHeight: '70dvh', justifyContent: 'flex-end' }}>
           <div className="grid-bg" />
-          <span className="wordmark">DYMO <b>TRAINING</b></span>
+          <span className="wordmark">BLACK <b>IRON</b></span>
           <h1 style={{ fontSize: 44, lineHeight: 1 }}>OPTIMIZED<br />HYPERTROPHY<br /><span className="accent">OS.</span></h1>
           <p className="muted">{t('onb.tagline')}</p>
           <div className="seg">{(['pt', 'en', 'es'] as Lang[]).map((l) => (

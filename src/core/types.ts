@@ -1,4 +1,4 @@
-// Domain types for Dymo Training. All weights are stored in kilograms; the UI converts for lb users.
+// Domain types for Black Iron. All weights are stored in kilograms; the UI converts for lb users.
 
 export type MuscleId =
   | 'chest' | 'lats' | 'middle back' | 'lower back' | 'traps' | 'shoulders'

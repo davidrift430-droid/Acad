@@ -1,4 +1,4 @@
-package com.dymotraining.app;
+package com.blackiron.app;
 
 import com.getcapacitor.BridgeActivity;
 
