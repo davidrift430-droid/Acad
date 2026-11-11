@@ -1,5 +1,5 @@
-# Publica o app no GitHub Pages a cada push na main.
-# Ative em: Settings → Pages → Source: "GitHub Actions".
+# Publishes the web/PWA version to GitHub Pages on every push to main.
+# Enable once in Settings → Pages → Source: "GitHub Actions".
 name: Deploy no GitHub Pages
 on:
   push:
@@ -23,10 +23,13 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: node tests/generator.test.js
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - run: npm run build
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: dist
       - id: deployment
         uses: actions/deploy-pages@v4

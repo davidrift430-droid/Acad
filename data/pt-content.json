@@ -1,0 +1,1193 @@
+{
+ "Barbell_Bench_Press_-_Medium_Grip": {
+  "n": "Supino reto com barra",
+  "st": [
+   "Deite no banco com os olhos logo abaixo da barra e os pés firmes no chão.",
+   "Segure a barra um pouco mais aberto que a largura dos ombros.",
+   "Retire a barra do suporte, aproxime as escápulas e mantenha o peito \"estufado\".",
+   "Desça controlando até encostar levemente no meio do peito.",
+   "Empurre a barra para cima até estender os braços, sem travar os cotovelos com força."
+  ],
+  "t": [
+   "Cotovelos a ~45° do tronco protegem os ombros.",
+   "Use um parceiro ou travas de segurança em cargas altas."
+  ],
+  "e": [
+   "Quicar a barra no peito.",
+   "Tirar o quadril do banco."
+  ]
+ },
+ "Dumbbell_Bench_Press": {
+  "n": "Supino reto com halteres",
+  "st": [
+   "Sente no banco com os halteres apoiados nas coxas e deite levando-os ao peito.",
+   "Posicione os halteres na linha do peito com as palmas para frente.",
+   "Empurre para cima aproximando os halteres no topo.",
+   "Desça devagar até sentir um bom alongamento no peito."
+  ],
+  "t": [
+   "Ótimo para corrigir diferenças de força entre os lados.",
+   "Mantenha as escápulas juntas o tempo todo."
+  ],
+  "e": [
+   "Bater os halteres no topo.",
+   "Descer rápido demais e perder o controle."
+  ]
+ },
+ "Incline_Dumbbell_Press": {
+  "n": "Supino inclinado com halteres",
+  "st": [
+   "Ajuste o banco entre 30° e 45° de inclinação.",
+   "Deite com os halteres na altura da parte de cima do peito.",
+   "Empurre para cima e levemente para dentro.",
+   "Desça controlando até os cotovelos ficarem um pouco abaixo do banco."
+  ],
+  "t": [
+   "Enfatiza a parte superior do peito.",
+   "Inclinação muito alta transfere o trabalho para os ombros."
+  ],
+  "e": [
+   "Arquear demais a lombar.",
+   "Abrir os cotovelos a 90°."
+  ]
+ },
+ "Barbell_Incline_Bench_Press_-_Medium_Grip": {
+  "n": "Supino inclinado com barra",
+  "st": [
+   "Banco inclinado entre 30° e 45°.",
+   "Pegada um pouco mais aberta que os ombros.",
+   "Desça a barra até a parte alta do peito.",
+   "Empurre para cima em linha reta."
+  ],
+  "t": [
+   "Mantenha os pés firmes para ter estabilidade."
+  ],
+  "e": [
+   "Descer a barra no pescoço.",
+   "Perder a retração das escápulas."
+  ]
+ },
+ "Dumbbell_Flyes": {
+  "n": "Crucifixo com halteres",
+  "st": [
+   "Deite no banco com os halteres acima do peito e palmas viradas uma para a outra.",
+   "Com os cotovelos levemente flexionados, abra os braços em arco.",
+   "Desça até sentir o peito alongar (braços na linha do corpo).",
+   "Volte \"abraçando uma árvore\" até o topo."
+  ],
+  "t": [
+   "Use cargas leves: o foco é o alongamento.",
+   "Mantenha o mesmo ângulo de cotovelo do início ao fim."
+  ],
+  "e": [
+   "Esticar totalmente os cotovelos.",
+   "Descer além da linha dos ombros."
+  ]
+ },
+ "Cable_Crossover": {
+  "n": "Crossover na polia",
+  "st": [
+   "Ajuste as polias no alto e segure uma em cada mão.",
+   "Dê um passo à frente e incline levemente o tronco.",
+   "Com cotovelos semiflexionados, traga as mãos para frente e para baixo até se cruzarem.",
+   "Volte devagar até sentir o peito alongar."
+  ],
+  "t": [
+   "Aperte o peito por 1 segundo no final."
+  ],
+  "e": [
+   "Usar os braços em vez do peito (flexionar e estender o cotovelo)."
+  ]
+ },
+ "Butterfly": {
+  "n": "Voador (peck deck)",
+  "st": [
+   "Ajuste o banco para que as manoplas fiquem na altura do peito.",
+   "Sente com as costas apoiadas e segure as manoplas.",
+   "Junte os braços à frente contraindo o peito.",
+   "Volte controlando até sentir o alongamento."
+  ],
+  "t": [
+   "Ótimo para iniciantes: a máquina guia o movimento."
+  ],
+  "e": [
+   "Deixar o peso \"bater\" no final da volta."
+  ]
+ },
+ "Pushups": {
+  "n": "Flexão de braço",
+  "st": [
+   "Mãos no chão um pouco mais abertas que os ombros.",
+   "Corpo reto da cabeça aos calcanhares, abdômen contraído.",
+   "Desça até o peito quase tocar o chão.",
+   "Empurre o chão e volte à posição inicial."
+  ],
+  "t": [
+   "Iniciante? Faça com os joelhos apoiados ou as mãos num banco.",
+   "Mais difícil? Eleve os pés."
+  ],
+  "e": [
+   "Deixar o quadril cair.",
+   "Cabeça projetada para frente."
+  ]
+ },
+ "Incline_Push-Up": {
+  "n": "Flexão inclinada (mãos no banco)",
+  "st": [
+   "Apoie as mãos na borda de um banco, mesa firme ou sofá, um pouco mais abertas que os ombros.",
+   "Afaste os pés até o corpo ficar reto.",
+   "Desça o peito em direção à borda dobrando os cotovelos.",
+   "Empurre de volta até estender os braços."
+  ],
+  "t": [
+   "Versão mais leve da flexão — perfeita para começar.",
+   "Quanto mais alto o apoio, mais fácil."
+  ],
+  "e": [
+   "Quadril caindo ou empinado."
+  ]
+ },
+ "Dips_-_Chest_Version": {
+  "n": "Paralelas (foco peito)",
+  "st": [
+   "Segure as barras paralelas com os braços estendidos.",
+   "Incline o tronco à frente cerca de 30°.",
+   "Desça flexionando os cotovelos até os ombros ficarem levemente abaixo deles.",
+   "Empurre de volta para cima."
+  ],
+  "t": [
+   "Use a máquina graviton para assistência se precisar."
+  ],
+  "e": [
+   "Descer fundo demais e forçar o ombro."
+  ]
+ },
+ "Wide-Grip_Lat_Pulldown": {
+  "n": "Puxada frontal",
+  "st": [
+   "Sente e prenda as coxas sob o apoio.",
+   "Segure a barra mais aberta que os ombros.",
+   "Incline levemente o tronco para trás e puxe a barra até a parte alta do peito.",
+   "Pense em levar os cotovelos para baixo e para trás.",
+   "Volte devagar com os braços estendidos."
+  ],
+  "t": [
+   "Imagine que suas mãos são ganchos: quem puxa são as costas."
+  ],
+  "e": [
+   "Puxar atrás da nuca.",
+   "Balançar o tronco para ajudar."
+  ]
+ },
+ "Pullups": {
+  "n": "Barra fixa",
+  "st": [
+   "Segure a barra com as palmas para frente, um pouco mais aberto que os ombros.",
+   "Fique pendurado com os braços estendidos.",
+   "Puxe o corpo até o queixo passar a barra.",
+   "Desça controlando até estender os braços."
+  ],
+  "t": [
+   "Comece com elástico ou faça só a fase de descida (negativa)."
+  ],
+  "e": [
+   "Fazer \"kipping\" (balanço) sem controle.",
+   "Meia repetição."
+  ]
+ },
+ "Chin-Up": {
+  "n": "Barra fixa supinada (chin-up)",
+  "st": [
+   "Segure a barra com as palmas viradas para você, na largura dos ombros.",
+   "Fique pendurado com os braços estendidos e o peito aberto.",
+   "Puxe até o queixo passar a barra, cotovelos perto do corpo.",
+   "Desça devagar."
+  ],
+  "t": [
+   "Costuma ser mais fácil que a pronada e trabalha muito o bíceps."
+  ],
+  "e": [
+   "Não estender os braços na descida."
+  ]
+ },
+ "Bent_Over_Barbell_Row": {
+  "n": "Remada curvada com barra",
+  "st": [
+   "Segure a barra na largura dos ombros com joelhos levemente flexionados.",
+   "Incline o tronco à frente (~45°) com a coluna neutra.",
+   "Puxe a barra em direção ao umbigo.",
+   "Aperte as escápulas no topo e desça controlando."
+  ],
+  "t": [
+   "Mantenha o abdômen firme para proteger a lombar."
+  ],
+  "e": [
+   "Arredondar as costas.",
+   "Levantar o tronco a cada repetição."
+  ]
+ },
+ "One-Arm_Dumbbell_Row": {
+  "n": "Remada unilateral (serrote)",
+  "st": [
+   "Apoie um joelho e a mão do mesmo lado no banco.",
+   "Segure o halter com o outro braço estendido.",
+   "Puxe o halter em direção ao quadril.",
+   "Desça devagar até estender o braço."
+  ],
+  "t": [
+   "Pense em \"levar o cotovelo para o bolso de trás\"."
+  ],
+  "e": [
+   "Girar o tronco para subir o peso."
+  ]
+ },
+ "Seated_Cable_Rows": {
+  "n": "Remada baixa",
+  "st": [
+   "Sente com os pés apoiados e joelhos levemente flexionados.",
+   "Segure o triângulo com o tronco ereto.",
+   "Puxe até o abdômen juntando as escápulas.",
+   "Estenda os braços devagar sem curvar as costas."
+  ],
+  "t": [
+   "Peito para cima, ombros longe das orelhas."
+  ],
+  "e": [
+   "Balançar o tronco para frente e para trás."
+  ]
+ },
+ "Barbell_Deadlift": {
+  "n": "Levantamento terra",
+  "st": [
+   "Pés na largura do quadril, barra sobre o meio do pé.",
+   "Agache segurando a barra com as mãos por fora das pernas.",
+   "Peito para cima, costas retas, ombros sobre a barra.",
+   "Empurre o chão e estenda quadril e joelhos juntos, barra rente às pernas.",
+   "Desça invertendo o movimento."
+  ],
+  "t": [
+   "Aprenda com carga leve e, se puder, com um profissional.",
+   "Respire fundo e trave o abdômen antes de subir."
+  ],
+  "e": [
+   "Arredondar a lombar.",
+   "Afastar a barra do corpo."
+  ]
+ },
+ "Straight-Arm_Pulldown": {
+  "n": "Pulldown braços estendidos",
+  "st": [
+   "Em pé de frente para a polia alta, segure a barra com braços estendidos.",
+   "Incline levemente o tronco.",
+   "Leve a barra até as coxas em arco, sem dobrar os cotovelos.",
+   "Volte devagar."
+  ],
+  "t": [
+   "Isola o grande dorsal; ótimo para \"sentir\" as costas."
+  ],
+  "e": [
+   "Flexionar os cotovelos e virar um tríceps."
+  ]
+ },
+ "Hyperextensions_Back_Extensions": {
+  "n": "Hiperextensão lombar",
+  "st": [
+   "Posicione o quadril no apoio e prenda os pés.",
+   "Cruze os braços no peito.",
+   "Desça o tronco com a coluna reta.",
+   "Suba até o corpo ficar alinhado, sem passar dessa linha."
+  ],
+  "t": [
+   "Fortalece a lombar — ótimo para prevenção."
+  ],
+  "e": [
+   "Hiperestender (subir demais) a coluna."
+  ]
+ },
+ "Inverted_Row": {
+  "n": "Remada invertida",
+  "st": [
+   "Deite sob uma barra baixa (ou mesa firme) e segure-a.",
+   "Corpo reto, calcanhares no chão.",
+   "Puxe o peito até a barra.",
+   "Desça controlando."
+  ],
+  "t": [
+   "Quanto mais em pé, mais fácil."
+  ],
+  "e": [
+   "Quadril caindo durante o movimento."
+  ]
+ },
+ "Dumbbell_Shoulder_Press": {
+  "n": "Desenvolvimento com halteres",
+  "st": [
+   "Sente num banco com encosto e halteres na altura dos ombros.",
+   "Palmas para frente, cotovelos levemente à frente do corpo.",
+   "Empurre os halteres para cima até quase se tocarem.",
+   "Desça até a altura das orelhas."
+  ],
+  "t": [
+   "Mantenha as costas apoiadas e o abdômen firme."
+  ],
+  "e": [
+   "Arquear muito a lombar."
+  ]
+ },
+ "Standing_Military_Press": {
+  "n": "Desenvolvimento militar em pé",
+  "st": [
+   "Barra apoiada na frente dos ombros, pegada na largura dos ombros.",
+   "Contraia glúteos e abdômen.",
+   "Empurre a barra para cima, passando a cabeça para trás.",
+   "No topo, a barra fica sobre o meio do pé. Desça controlando."
+  ],
+  "t": [
+   "Glúteos contraídos evitam compensar com a lombar."
+  ],
+  "e": [
+   "Inclinar o tronco para trás."
+  ]
+ },
+ "Side_Lateral_Raise": {
+  "n": "Elevação lateral",
+  "st": [
+   "Em pé, halteres ao lado do corpo.",
+   "Cotovelos levemente flexionados.",
+   "Eleve os braços para os lados até a altura dos ombros.",
+   "Desça devagar."
+  ],
+  "t": [
+   "Pense em \"empurrar as paredes\" com as mãos.",
+   "Carga leve e boa técnica rendem mais."
+  ],
+  "e": [
+   "Usar impulso do corpo.",
+   "Subir os ombros em direção às orelhas."
+  ]
+ },
+ "Front_Dumbbell_Raise": {
+  "n": "Elevação frontal",
+  "st": [
+   "Em pé, halteres à frente das coxas.",
+   "Eleve um ou ambos os braços à frente até a altura dos ombros.",
+   "Desça controlando."
+  ],
+  "t": [
+   "O deltoide frontal já trabalha muito nos supinos — use com moderação."
+  ],
+  "e": [
+   "Balançar o tronco."
+  ]
+ },
+ "Reverse_Flyes": {
+  "n": "Crucifixo inverso",
+  "st": [
+   "Incline o tronco à frente com as costas retas.",
+   "Halteres pendurados abaixo do peito.",
+   "Abra os braços para os lados até a linha dos ombros.",
+   "Desça devagar."
+  ],
+  "t": [
+   "Trabalha o ombro posterior: melhora a postura."
+  ],
+  "e": [
+   "Juntar demais as escápulas e usar só as costas."
+  ]
+ },
+ "Face_Pull": {
+  "n": "Face pull",
+  "st": [
+   "Polia na altura do rosto com a corda.",
+   "Segure com as palmas para dentro e dê um passo para trás.",
+   "Puxe a corda em direção ao rosto abrindo os cotovelos.",
+   "Gire os ombros para fora no final e volte."
+  ],
+  "t": [
+   "Excelente para a saúde dos ombros."
+  ],
+  "e": [
+   "Usar carga demais e jogar o corpo para trás."
+  ]
+ },
+ "Dumbbell_Shrug": {
+  "n": "Encolhimento com halteres",
+  "st": [
+   "Em pé, halteres ao lado do corpo.",
+   "Eleve os ombros em direção às orelhas.",
+   "Segure 1 segundo e desça."
+  ],
+  "t": [
+   "Movimento só para cima e para baixo."
+  ],
+  "e": [
+   "Girar os ombros."
+  ]
+ },
+ "Barbell_Curl": {
+  "n": "Rosca direta com barra",
+  "st": [
+   "Em pé, segure a barra com as palmas para frente.",
+   "Cotovelos colados ao lado do corpo.",
+   "Flexione os cotovelos levando a barra até os ombros.",
+   "Desça devagar até estender os braços."
+  ],
+  "t": [
+   "A barra W é mais confortável para os punhos."
+  ],
+  "e": [
+   "Balançar o corpo.",
+   "Levar os cotovelos para frente."
+  ]
+ },
+ "Dumbbell_Alternate_Bicep_Curl": {
+  "n": "Rosca alternada",
+  "st": [
+   "Em pé ou sentado, halteres ao lado do corpo.",
+   "Suba um halter girando a palma para cima.",
+   "Desça e repita com o outro braço."
+  ],
+  "t": [
+   "Gire o punho (supinação) para contrair mais o bíceps."
+  ],
+  "e": [
+   "Movimentos rápidos sem controle."
+  ]
+ },
+ "Hammer_Curls": {
+  "n": "Rosca martelo",
+  "st": [
+   "Halteres ao lado do corpo com as palmas viradas para dentro.",
+   "Flexione os cotovelos mantendo a pegada neutra.",
+   "Desça controlando."
+  ],
+  "t": [
+   "Trabalha também o antebraço (braquiorradial)."
+  ],
+  "e": [
+   "Abrir os cotovelos."
+  ]
+ },
+ "Preacher_Curl": {
+  "n": "Rosca Scott",
+  "st": [
+   "Sente no banco Scott com os braços apoiados.",
+   "Segure a barra com as palmas para cima.",
+   "Suba a barra até perto dos ombros.",
+   "Desça devagar, sem estender totalmente com tranco."
+  ],
+  "t": [
+   "Impede o roubo com o corpo — isola bem o bíceps."
+  ],
+  "e": [
+   "Soltar o peso na descida."
+  ]
+ },
+ "Concentration_Curls": {
+  "n": "Rosca concentrada",
+  "st": [
+   "Sente com as pernas afastadas.",
+   "Apoie o cotovelo na parte interna da coxa.",
+   "Suba o halter até o ombro e desça devagar."
+  ],
+  "t": [
+   "Ótimo para conexão mente-músculo."
+  ],
+  "e": [
+   "Mexer o ombro para ajudar."
+  ]
+ },
+ "Standing_Biceps_Cable_Curl": {
+  "n": "Rosca na polia",
+  "st": [
+   "De frente para a polia baixa, segure a barra.",
+   "Cotovelos fixos ao lado do corpo.",
+   "Flexione levando a barra ao peito.",
+   "Desça controlando."
+  ],
+  "t": [
+   "O cabo mantém tensão constante o movimento todo."
+  ],
+  "e": [
+   "Inclinar o tronco para trás."
+  ]
+ },
+ "Triceps_Pushdown": {
+  "n": "Tríceps pulley (barra)",
+  "st": [
+   "De frente para a polia alta, segure a barra.",
+   "Cotovelos colados ao corpo.",
+   "Estenda os braços empurrando a barra para baixo.",
+   "Volte até os cotovelos formarem 90°."
+  ],
+  "t": [
+   "Só o antebraço se move."
+  ],
+  "e": [
+   "Abrir os cotovelos.",
+   "Usar o peso do corpo."
+  ]
+ },
+ "Triceps_Pushdown_-_Rope_Attachment": {
+  "n": "Tríceps corda",
+  "st": [
+   "Segure a corda na polia alta com as palmas para dentro.",
+   "Estenda os braços e abra a corda no final.",
+   "Volte devagar."
+  ],
+  "t": [
+   "Abrir a corda no final aumenta a contração."
+  ],
+  "e": [
+   "Cotovelos indo para frente."
+  ]
+ },
+ "EZ-Bar_Skullcrusher": {
+  "n": "Tríceps testa",
+  "st": [
+   "Deite no banco com a barra W acima do peito.",
+   "Flexione apenas os cotovelos levando a barra até a testa.",
+   "Estenda os braços de volta."
+  ],
+  "t": [
+   "Cotovelos apontando para o teto."
+  ],
+  "e": [
+   "Abrir os cotovelos para os lados."
+  ]
+ },
+ "Standing_Dumbbell_Triceps_Extension": {
+  "n": "Tríceps francês",
+  "st": [
+   "Segure um halter com as duas mãos acima da cabeça.",
+   "Desça o halter atrás da cabeça flexionando os cotovelos.",
+   "Estenda os braços de volta."
+  ],
+  "t": [
+   "Alonga a cabeça longa do tríceps — ótimo para crescimento."
+  ],
+  "e": [
+   "Arquear a lombar."
+  ]
+ },
+ "Bench_Dips": {
+  "n": "Mergulho no banco",
+  "st": [
+   "Apoie as mãos na borda de um banco atrás de você.",
+   "Pernas estendidas à frente (ou joelhos dobrados para facilitar).",
+   "Desça o corpo até os cotovelos formarem 90°.",
+   "Empurre de volta para cima."
+  ],
+  "t": [
+   "Mantenha o corpo perto do banco."
+  ],
+  "e": [
+   "Descer demais e forçar o ombro."
+  ]
+ },
+ "Close-Grip_Barbell_Bench_Press": {
+  "n": "Supino fechado",
+  "st": [
+   "Deite no banco e segure a barra na largura dos ombros.",
+   "Desça até a parte baixa do peito com os cotovelos próximos ao corpo.",
+   "Empurre para cima."
+  ],
+  "t": [
+   "Pegada fechada demais machuca o punho — use a largura dos ombros."
+  ],
+  "e": [
+   "Abrir os cotovelos."
+  ]
+ },
+ "Barbell_Squat": {
+  "n": "Agachamento livre",
+  "st": [
+   "Barra apoiada no trapézio, pés na largura dos ombros, pontas levemente para fora.",
+   "Respire fundo e contraia o abdômen.",
+   "Desça empurrando o quadril para trás e dobrando os joelhos, como se fosse sentar.",
+   "Desça até as coxas ficarem pelo menos paralelas ao chão.",
+   "Suba empurrando o chão com o pé inteiro."
+  ],
+  "t": [
+   "Joelhos acompanham a direção das pontas dos pés.",
+   "Olhar para frente ajuda a manter o peito alto."
+  ],
+  "e": [
+   "Joelhos caindo para dentro.",
+   "Tirar os calcanhares do chão.",
+   "Arredondar a lombar no fundo."
+  ]
+ },
+ "Goblet_Squat": {
+  "n": "Agachamento goblet",
+  "st": [
+   "Segure um halter ou kettlebell junto ao peito.",
+   "Pés um pouco mais abertos que os ombros.",
+   "Agache mantendo o tronco ereto, cotovelos entre os joelhos.",
+   "Suba empurrando o chão."
+  ],
+  "t": [
+   "O melhor agachamento para aprender a técnica!"
+  ],
+  "e": [
+   "Inclinar o tronco à frente."
+  ]
+ },
+ "Leg_Press": {
+  "n": "Leg press",
+  "st": [
+   "Sente com as costas e o quadril bem apoiados.",
+   "Pés na plataforma na largura dos ombros.",
+   "Destrave e desça a plataforma até os joelhos formarem ~90°.",
+   "Empurre de volta sem travar os joelhos."
+  ],
+  "t": [
+   "Pés mais altos = mais glúteo; mais baixos = mais quadríceps."
+  ],
+  "e": [
+   "Tirar o quadril do banco no fundo.",
+   "Travar os joelhos no topo."
+  ]
+ },
+ "Leg_Extensions": {
+  "n": "Cadeira extensora",
+  "st": [
+   "Sente com o joelho alinhado ao eixo da máquina.",
+   "Apoio na parte baixa da canela.",
+   "Estenda os joelhos até as pernas ficarem retas.",
+   "Desça devagar."
+  ],
+  "t": [
+   "Segure 1 segundo no topo para contrair mais."
+  ],
+  "e": [
+   "Jogar o peso com impulso."
+  ]
+ },
+ "Dumbbell_Lunges": {
+  "n": "Afundo (passada) com halteres",
+  "st": [
+   "Em pé com halteres nas mãos.",
+   "Dê um passo largo à frente.",
+   "Desça até o joelho de trás quase tocar o chão.",
+   "Empurre com a perna da frente e volte."
+  ],
+  "t": [
+   "Tronco ereto e passo largo o suficiente."
+  ],
+  "e": [
+   "Joelho da frente caindo para dentro."
+  ]
+ },
+ "Split_Squat_with_Dumbbells": {
+  "n": "Agachamento búlgaro",
+  "st": [
+   "Apoie o peito de um pé num banco atrás de você.",
+   "Segure halteres ao lado do corpo.",
+   "Desça até a coxa da frente ficar paralela ao chão.",
+   "Suba empurrando com a perna da frente."
+  ],
+  "t": [
+   "Inclinar o tronco à frente trabalha mais o glúteo."
+  ],
+  "e": [
+   "Pé da frente perto demais do banco."
+  ]
+ },
+ "Bodyweight_Squat": {
+  "n": "Agachamento livre (peso do corpo)",
+  "st": [
+   "Pés na largura dos ombros, braços à frente.",
+   "Desça como se fosse sentar numa cadeira.",
+   "Suba empurrando o chão."
+  ],
+  "t": [
+   "Ótimo aquecimento e exercício para casa."
+  ],
+  "e": [
+   "Calcanhares saindo do chão."
+  ]
+ },
+ "Hack_Squat": {
+  "n": "Agachamento hack",
+  "st": [
+   "Posicione os ombros sob os apoios e as costas no encosto.",
+   "Pés na largura dos ombros.",
+   "Destrave e desça até ~90° nos joelhos.",
+   "Suba empurrando a plataforma."
+  ],
+  "t": [
+   "A máquina dá estabilidade para focar no quadríceps."
+  ],
+  "e": [
+   "Tirar as costas do encosto."
+  ]
+ },
+ "Romanian_Deadlift": {
+  "n": "Levantamento terra romeno",
+  "st": [
+   "Em pé, segure a barra na frente das coxas.",
+   "Joelhos levemente flexionados (e fixos).",
+   "Empurre o quadril para trás descendo a barra rente às pernas.",
+   "Desça até sentir o posterior alongar (abaixo dos joelhos).",
+   "Volte empurrando o quadril para frente."
+  ],
+  "t": [
+   "O movimento é do quadril, não da coluna."
+  ],
+  "e": [
+   "Arredondar as costas.",
+   "Dobrar demais os joelhos (vira agachamento)."
+  ]
+ },
+ "Stiff-Legged_Barbell_Deadlift": {
+  "n": "Stiff",
+  "st": [
+   "Em pé com a barra à frente, pernas quase estendidas.",
+   "Incline o tronco à frente mantendo a coluna reta.",
+   "Desça até sentir alongar o posterior.",
+   "Suba contraindo glúteos e posterior."
+  ],
+  "t": [
+   "Pode ser feito com halteres também."
+  ],
+  "e": [
+   "Curvar a lombar para descer mais."
+  ]
+ },
+ "Lying_Leg_Curls": {
+  "n": "Mesa flexora",
+  "st": [
+   "Deite de bruços com o apoio logo acima dos calcanhares.",
+   "Joelhos ligeiramente fora do banco.",
+   "Flexione os joelhos levando os calcanhares ao glúteo.",
+   "Desça devagar."
+  ],
+  "t": [
+   "Mantenha o quadril colado no banco."
+  ],
+  "e": [
+   "Levantar o quadril."
+  ]
+ },
+ "Seated_Leg_Curl": {
+  "n": "Cadeira flexora",
+  "st": [
+   "Sente com o joelho alinhado ao eixo da máquina.",
+   "Apoio sobre as coxas e atrás dos calcanhares.",
+   "Flexione os joelhos puxando o apoio para baixo.",
+   "Volte devagar."
+  ],
+  "t": [
+   "Sentado, o posterior trabalha mais alongado — ótimo para hipertrofia."
+  ],
+  "e": [
+   "Movimento curto."
+  ]
+ },
+ "Barbell_Hip_Thrust": {
+  "n": "Elevação pélvica com barra",
+  "st": [
+   "Apoie a parte alta das costas num banco.",
+   "Barra sobre o quadril (use uma proteção).",
+   "Pés firmes no chão, joelhos a 90° no topo.",
+   "Eleve o quadril até alinhar com o tronco.",
+   "Contraia os glúteos 1 segundo e desça."
+  ],
+  "t": [
+   "Queixo levemente para baixo ajuda a não arquear a lombar."
+  ],
+  "e": [
+   "Hiperestender a lombar no topo."
+  ]
+ },
+ "Barbell_Glute_Bridge": {
+  "n": "Ponte de glúteo com barra",
+  "st": [
+   "Deite no chão com a barra sobre o quadril.",
+   "Joelhos flexionados, pés no chão.",
+   "Eleve o quadril contraindo os glúteos.",
+   "Desça devagar."
+  ],
+  "t": [
+   "Versão mais simples da elevação pélvica."
+  ],
+  "e": [
+   "Empurrar com a ponta dos pés."
+  ]
+ },
+ "Butt_Lift_Bridge": {
+  "n": "Ponte de glúteo",
+  "st": [
+   "Deite de barriga para cima, joelhos dobrados.",
+   "Pés apoiados perto do quadril.",
+   "Eleve o quadril apertando os glúteos.",
+   "Desça devagar."
+  ],
+  "t": [
+   "Perfeito para fazer em casa ou no aquecimento."
+  ],
+  "e": [
+   "Arquear a lombar no topo."
+  ]
+ },
+ "Single_Leg_Glute_Bridge": {
+  "n": "Ponte de glúteo unilateral",
+  "st": [
+   "Deite com um joelho dobrado e a outra perna estendida no ar.",
+   "Eleve o quadril empurrando com o pé apoiado.",
+   "Mantenha o quadril nivelado e desça."
+  ],
+  "t": [
+   "Faça todas as repetições de um lado e depois troque."
+  ],
+  "e": [
+   "Deixar o quadril girar."
+  ]
+ },
+ "Thigh_Abductor": {
+  "n": "Cadeira abdutora",
+  "st": [
+   "Sente com as costas apoiadas e as pernas nos apoios.",
+   "Abra as pernas para os lados.",
+   "Volte devagar sem deixar o peso bater."
+  ],
+  "t": [
+   "Inclinar o tronco à frente enfatiza o glúteo máximo."
+  ],
+  "e": [
+   "Usar impulso."
+  ]
+ },
+ "Glute_Kickback": {
+  "n": "Coice de glúteo (quatro apoios)",
+  "st": [
+   "Fique em quatro apoios, mãos sob os ombros.",
+   "Eleve uma perna para trás e para cima com o joelho dobrado.",
+   "Contraia o glúteo no topo e desça."
+  ],
+  "t": [
+   "Pode usar caneleira ou polia para progredir."
+  ],
+  "e": [
+   "Arquear a lombar para subir mais."
+  ]
+ },
+ "Leg_Lift": {
+  "n": "Coice em pé (com apoio)",
+  "st": [
+   "Em pé, segure numa cadeira ou parede para se equilibrar.",
+   "Leve uma perna para trás e para cima, mantendo o tronco firme.",
+   "Contraia o glúteo no topo e volte devagar."
+  ],
+  "t": [
+   "Use caneleira para progredir."
+  ],
+  "e": [
+   "Inclinar o tronco à frente para subir mais a perna."
+  ]
+ },
+ "Dumbbell_Step_Ups": {
+  "n": "Subida no banco (step-up)",
+  "st": [
+   "Fique de frente para um banco firme, halteres nas mãos.",
+   "Coloque um pé inteiro no banco.",
+   "Suba empurrando com essa perna.",
+   "Desça controlando e repita."
+  ],
+  "t": [
+   "Banco mais alto = mais glúteo."
+  ],
+  "e": [
+   "Dar impulso com a perna de trás."
+  ]
+ },
+ "Standing_Calf_Raises": {
+  "n": "Panturrilha em pé",
+  "st": [
+   "Apoie a ponta dos pés na plataforma, calcanhares para fora.",
+   "Desça os calcanhares até alongar.",
+   "Suba na ponta dos pés o máximo possível.",
+   "Segure 1 segundo no topo."
+  ],
+  "t": [
+   "Pode fazer num degrau, só com o peso do corpo."
+  ],
+  "e": [
+   "Movimento curto e rápido demais."
+  ]
+ },
+ "Seated_Calf_Raise": {
+  "n": "Panturrilha sentado",
+  "st": [
+   "Sente com o apoio sobre os joelhos.",
+   "Pontas dos pés na plataforma.",
+   "Desça os calcanhares e suba o máximo possível."
+  ],
+  "t": [
+   "Trabalha o sóleo, músculo profundo da panturrilha."
+  ],
+  "e": [
+   "Quicar no fundo."
+  ]
+ },
+ "Plank": {
+  "n": "Prancha",
+  "st": [
+   "Apoie os antebraços no chão, cotovelos sob os ombros.",
+   "Estenda as pernas e apoie as pontas dos pés.",
+   "Corpo reto da cabeça aos pés.",
+   "Contraia abdômen e glúteos e segure."
+  ],
+  "t": [
+   "Melhor 30 s perfeitos do que 2 min tortos."
+  ],
+  "e": [
+   "Quadril alto ou caído.",
+   "Prender a respiração."
+  ]
+ },
+ "Crunches": {
+  "n": "Abdominal crunch",
+  "st": [
+   "Deite com os joelhos dobrados e pés no chão.",
+   "Mãos ao lado da cabeça ou cruzadas no peito.",
+   "Eleve os ombros do chão \"enrolando\" o tronco.",
+   "Desça devagar."
+  ],
+  "t": [
+   "Solte o ar ao subir."
+  ],
+  "e": [
+   "Puxar o pescoço com as mãos."
+  ]
+ },
+ "Flat_Bench_Lying_Leg_Raise": {
+  "n": "Elevação de pernas deitado",
+  "st": [
+   "Deite com as mãos sob o quadril ou segurando o banco.",
+   "Pernas estendidas.",
+   "Eleve as pernas até 90°.",
+   "Desça devagar sem encostar no chão."
+  ],
+  "t": [
+   "Mantenha a lombar colada no apoio."
+  ],
+  "e": [
+   "Arquear a lombar na descida."
+  ]
+ },
+ "Hanging_Leg_Raise": {
+  "n": "Elevação de pernas na barra",
+  "st": [
+   "Pendure-se na barra com os braços estendidos.",
+   "Eleve as pernas (ou os joelhos) até a altura do quadril ou mais.",
+   "Desça controlando, sem balançar."
+  ],
+  "t": [
+   "Comece com joelhos dobrados."
+  ],
+  "e": [
+   "Balançar o corpo."
+  ]
+ },
+ "Air_Bike": {
+  "n": "Abdominal bicicleta",
+  "st": [
+   "Deite com as mãos atrás da cabeça.",
+   "Leve o cotovelo direito em direção ao joelho esquerdo, estendendo a outra perna.",
+   "Alterne os lados como se pedalasse."
+  ],
+  "t": [
+   "Trabalha também os oblíquos."
+  ],
+  "e": [
+   "Fazer rápido demais e puxar o pescoço."
+  ]
+ },
+ "Side_Bridge": {
+  "n": "Prancha lateral",
+  "st": [
+   "Deite de lado apoiado no antebraço.",
+   "Eleve o quadril formando uma linha reta.",
+   "Segure e depois troque de lado."
+  ],
+  "t": [
+   "Iniciante? Apoie os joelhos."
+  ],
+  "e": [
+   "Deixar o quadril cair."
+  ]
+ },
+ "Russian_Twist": {
+  "n": "Rotação russa",
+  "st": [
+   "Sente com os joelhos dobrados e incline o tronco para trás.",
+   "Junte as mãos (ou segure um peso).",
+   "Gire o tronco de um lado para o outro."
+  ],
+  "t": [
+   "Pés no chão deixam mais fácil."
+  ],
+  "e": [
+   "Curvar as costas."
+  ]
+ },
+ "Reverse_Crunch": {
+  "n": "Abdominal invertido",
+  "st": [
+   "Deite com os braços ao lado do corpo e as coxas a 90°.",
+   "Leve os joelhos em direção ao peito tirando o quadril do chão.",
+   "Desça devagar até as coxas voltarem a 90°."
+  ],
+  "t": [
+   "Movimento curto e controlado, sem embalo."
+  ],
+  "e": [
+   "Jogar as pernas com impulso."
+  ]
+ },
+ "Dead_Bug": {
+  "n": "Dead bug",
+  "st": [
+   "Deite de barriga para cima, braços para o teto e joelhos a 90°.",
+   "Estenda o braço direito e a perna esquerda ao mesmo tempo.",
+   "Volte e troque os lados."
+  ],
+  "t": [
+   "Lombar sempre colada no chão. Excelente e seguro!"
+  ],
+  "e": [
+   "Fazer rápido e perder o controle."
+  ]
+ },
+ "Mountain_Climbers": {
+  "n": "Escalador",
+  "st": [
+   "Posição de prancha com os braços estendidos.",
+   "Leve um joelho em direção ao peito.",
+   "Troque as pernas rapidamente, como se corresse."
+  ],
+  "t": [
+   "Ótimo para elevar os batimentos."
+  ],
+  "e": [
+   "Quadril muito alto."
+  ]
+ },
+ "Walking_Treadmill": {
+  "n": "Caminhada na esteira",
+  "st": [
+   "Comece em velocidade baixa para aquecer.",
+   "Aumente até um ritmo em que consiga falar, mas não cantar.",
+   "Use inclinação para aumentar a intensidade."
+  ],
+  "t": [
+   "Ótima opção de cardio de baixo impacto."
+  ],
+  "e": [
+   "Segurar nas barras laterais o tempo todo."
+  ]
+ },
+ "Bicycling_Stationary": {
+  "n": "Bicicleta ergométrica",
+  "st": [
+   "Ajuste o banco na altura do quadril.",
+   "Pedale num ritmo confortável para aquecer.",
+   "Alterne períodos mais fortes e mais leves se quiser."
+  ],
+  "t": [
+   "Gentil com os joelhos."
+  ],
+  "e": [
+   "Banco muito baixo."
+  ]
+ },
+ "Elliptical_Trainer": {
+  "n": "Elíptico",
+  "st": [
+   "Suba com cuidado e segure as manoplas.",
+   "Mova pernas e braços de forma coordenada.",
+   "Ajuste a resistência conforme o objetivo."
+  ],
+  "t": [
+   "Trabalha corpo inteiro com baixo impacto."
+  ],
+  "e": [
+   "Apoiar todo o peso nos braços."
+  ]
+ },
+ "Rope_Jumping": {
+  "n": "Pular corda",
+  "st": [
+   "Segure a corda com os cotovelos perto do corpo.",
+   "Gire a corda com os punhos.",
+   "Pule baixinho, na ponta dos pés."
+  ],
+  "t": [
+   "Comece com blocos de 30 s."
+  ],
+  "e": [
+   "Pular alto demais."
+  ]
+ },
+ "Star_Jump": {
+  "n": "Polichinelo estrela",
+  "st": [
+   "Agache levemente com os braços cruzados.",
+   "Salte abrindo braços e pernas como uma estrela.",
+   "Aterrisse suave e repita."
+  ],
+  "t": [
+   "Aterrisse com os joelhos levemente dobrados."
+  ],
+  "e": [
+   "Aterrissar com as pernas rígidas."
+  ]
+ },
+ "Freehand_Jump_Squat": {
+  "n": "Agachamento com salto",
+  "st": [
+   "Pés na largura dos ombros, mãos atrás da cabeça ou à frente.",
+   "Agache até as coxas ficarem quase paralelas ao chão.",
+   "Salte o mais alto que puder.",
+   "Aterrisse suave e já desça para o próximo."
+  ],
+  "t": [
+   "Aterrissagem silenciosa = boa técnica."
+  ],
+  "e": [
+   "Joelhos caindo para dentro na aterrissagem."
+  ]
+ },
+ "Front_Box_Jump": {
+  "n": "Salto na caixa",
+  "st": [
+   "Fique de frente para uma caixa firme.",
+   "Agache rápido e salte balançando os braços.",
+   "Aterrisse suave com os dois pés na caixa.",
+   "Desça andando."
+  ],
+  "t": [
+   "Comece com uma caixa baixa."
+  ],
+  "e": [
+   "Pular para baixo (impacto desnecessário)."
+  ]
+ },
+ "One-Arm_Kettlebell_Swings": {
+  "n": "Swing com kettlebell",
+  "st": [
+   "Pés um pouco mais abertos que os ombros, kettlebell à frente.",
+   "Leve o kettlebell para trás entre as pernas (dobrando o quadril).",
+   "Estenda o quadril com força projetando o kettlebell até a altura do peito.",
+   "Deixe ele voltar e repita."
+  ],
+  "t": [
+   "A força vem do quadril, não dos braços."
+  ],
+  "e": [
+   "Agachar em vez de dobrar o quadril."
+  ]
+ }
+}
